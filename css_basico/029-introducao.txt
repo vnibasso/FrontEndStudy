@@ -1,0 +1,27 @@
+* CSS inline
+
+Atributo style de cada tag do html
+<p style="color:red">Texto</p> 
+
+
+* CSS interno
+
+TAG <style> dentro da tag <head> do HTML
+
+<head>
+    <style>
+        p{color:red}
+    <style>
+<head>
+
+<body>
+    <p>Texto</p>
+</body>
+
+
+* CSS externo
+
+Arquivo CSS separado do arquivo HTML
+
+index.html + style.css
+

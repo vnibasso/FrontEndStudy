@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style type="text/css"> 
+        thead{color: #0f0;}
+        tbody{color: #00f;}
+        tfoot{color: #f00;}
+    </style>
+</head>
+
+<body>
+    <!-- container principal da tabela -->
+    <table border="1">
+        
+        <tr>
+            <!-- rowspan="" mesclagem em colunas -->
+            <td rowspan="5">Seminovos</td>
+        </tr>
+         
+        <thead>  <!-- cabeçalho -->
+           
+            <tr> <!-- tr cria uma linha  -->
+                <!-- th cria o título da coluna -->
+                <th>Fabricante</th>
+                <th>Modelo</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+
+        <tbody> <!-- corpo -->
+        <tr> <!-- tr cria uma linha  -->
+            <!-- td preenche os dados da linha -->
+            <td>Honda</td>
+            <td>WRV</td>
+            <td>R$70.000,00</td>
+        </tr>
+
+        <tr>
+            <td>Volkswagem</td>
+            <td>Golf GTI</td>
+            <td>R$80.000,00</td>
+        </tr>
+
+        <tr>
+            <td>Ford</td>
+            <td>Ranger</td>
+            <td>R$90.000,00</td>
+        </tr>
+        </tbody>
+
+        <tfoot> <!-- rodapé -->
+
+        <!-- colspan="" mesclagem em linhas -->
+        <tr>
+            <td colspan="4">Tabela de preços 2019 </td>
+        </tr>
+        </tfoot>
+
+        
+    </table>
+</body>
+</html>
