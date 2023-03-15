@@ -1,0 +1,26 @@
+/* cm Centímetros
+mm milímetros
+in Polegadas (lin = 96px = 2.54cm)
+px* Pixels (1px = 1/96th oh lin)
+pt Pontos (1pt = 1/72 of 1in)
+pc picas (1pc = 12pt) */
+
+#foto {
+    width: 200px;
+}
+
+#azul {
+    background-color: blue;
+    width: 700px;
+    height: 300px;      
+}
+
+#vermelho {
+    background-color: red;
+    width: 500px;
+    height: 300px;      
+}
+
+#foto2 {
+    width: 200px;
+}

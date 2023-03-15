@@ -1,0 +1,27 @@
+/* cm Centímetros
+mm milímetros
+in Polegadas (lin = 96px = 2.54cm)
+px* Pixels (1px = 1/96th oh lin)
+pt Pontos (1pt = 1/72 of 1in)
+pc picas (1pc = 12pt) */
+
+#foto {
+    width: 20vw; /* a #foto terá sempre 20% da largura da janela do navegador, independente do tamanho dela. para definir a altura usa-se height: vh */
+}
+
+#azul {
+    background-color: blue;
+    width: 50%;
+    height: 300px;      
+}
+
+#vermelho {
+    background-color: red;
+    width: 30vw;
+    height: 300px;      
+}
+
+#foto2 {
+    width: 30%; /* a #foto2 terá sempre 30% da largura do elemento pai, independente do tamanho dele */
+}
+

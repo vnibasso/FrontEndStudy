@@ -1,0 +1,21 @@
+.container {
+    font-size: 25px; /* define o tamanho fixo da fonte em 25px */
+}
+
+.exemplo1 {
+/* classe exemplo1 herda o tamanho da da fonte do elemento pai <div class="container"> */
+}
+
+.exemplo2 {
+    font-size: 2rem; /* 2em altera o tamanho da fonte em 2x em relação ao elemento pai */
+}
+
+/* ======================================== */
+
+.exemplo3 {
+    font-size: 3rem; /* 2rem altera o tamanho da fonte em 3x em relação à raiz que é o HTML */
+}
+
+html{
+    font-size: 10px;
+}

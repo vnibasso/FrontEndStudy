@@ -25,3 +25,7 @@ Arquivo CSS separado do arquivo HTML
 
 index.html + style.css
 
+-----------------------------------------------
+
+seletor - propriedade - valor
+
