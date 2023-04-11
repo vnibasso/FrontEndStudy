@@ -1,0 +1,20 @@
+/* Família de fontes:
+-Com Serifa
+-Sem Serifa
+-Monospace */
+
+body {
+    font-family: sans-serif; /* altera a fonte para sem serifa */
+    font-style: italic; /* formata o texto para itálico */
+}
+
+h1 {
+    font-size: 40px; /* altera o tamanho do texto */
+}
+
+p {
+    font-style: normal;
+    font-weight: 800; /* altera o peso da fonte(esessura da linha) */
+}
+
+

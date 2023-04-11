@@ -1,0 +1,37 @@
+ul {
+    list-style: disc; /* opções: disc, circle e square */
+
+    border: 1px solid;
+
+    list-style-image: url(); /* a imagem precisa ter seu tamanho original ajustado, pois não é possível alterar seu tamanho pelo css */
+
+    background-color: #09c;
+    padding: 30px;
+
+}
+
+li {
+    
+    background-color: rgb(255, 192, 3);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+    list-style-position: outside; /* define se o marcador ficará dentro ou fora da borda da lista */
+    
+}
+
+ol {
+
+    border: 1px solid;
+    
+    list-style: upper-alpha; /* opções: lower-roman, upper-roman, lower-alpha, upper-alpha */
+
+    background-color: #09c;
+    padding: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

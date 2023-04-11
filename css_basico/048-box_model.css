@@ -1,0 +1,22 @@
+#primeira {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 10px solid black;
+    box-sizing: border-box; 
+    /* box-sizing: border-box; garante que o box mantenha o tamanho definido independente se for passado um padding*/
+}
+
+#segunda {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

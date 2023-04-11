@@ -1,0 +1,25 @@
+#quadrado {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    
+    margin-right: auto;
+    margin-left: auto;
+    /* esta é uma forma de centralizar o conteúdo na página */
+}
+
+p {
+    width: 400px;
+   
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center; /* cantraliza o texto em relação ao comprimento do parágrafo */
+    
+}
+
+#imagem {
+    background-color: blue;
+    text-align: center; 
+    /* esta é uma forma de centralizar a imagem na página */
+}

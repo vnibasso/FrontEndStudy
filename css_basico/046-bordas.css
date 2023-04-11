@@ -1,0 +1,31 @@
+#primeira {
+    height: 100px;
+    width: 100px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:blue;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#segunda {
+    height: 100px;
+    /* width: 100px; */
+    /* background-color: red; */
+    border-width: 5px;
+    border-style: solid;
+    border-color: red yellow green blue; /*é possível atribuir mais de uma cor iniciando pela cor do topo, lado direito, base e lado esquerdo*/
+    border-radius: 10px 20px 30px 40px;
+}
+
+#terceira {
+    height: 100px;
+    /* background-color: green; */
+}
+
+/* para criar a borda no texo deve-se informar o tamanho, o estilo e a cor */
+p {
+    border: 3px dashed green;
+    padding: 5px;
+    border-radius: 20px;
+}
